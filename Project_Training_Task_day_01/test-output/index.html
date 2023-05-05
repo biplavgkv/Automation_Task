@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\bkumar\AppData\Local\Temp\testng-eclipse--973759179\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods, 1 failed,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="date2">date2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="AddRooms">AddRooms</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="Bmember_visibility">Bmember_visibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="CallUs_Visibility">CallUs_Visibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="CitiesInKolkata">CitiesInKolkata</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="CitiesInMumbai">CitiesInMumbai</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="CitiesInpune">CitiesInpune</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="CityInGurgaon">CityInGurgaon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="CityInHyderabad">CityInHyderabad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="CityInbangalore">CityInbangalore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="CityInchennai">CityInchennai</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="CityIndelhi">CityIndelhi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="DelRooms">DelRooms</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="Logo_visibility">Logo_visibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="SelectingRoom">SelectingRoom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="bistupurG">bistupurG</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="citiesInNOIDA">citiesInNOIDA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="clckcalen">clckcalen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="clicked">clicked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="date">date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="datePickCalendar">datePickCalendar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="decroom">decroom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="incroom">incroom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="listproperty_Visibility">listproperty_Visibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="mapviewbox">mapviewbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="oyoBusiness_visibiltiy">oyoBusiness_visibiltiy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="sea">sea</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="searchboxinside">searchboxinside</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Testpage_method.TestCasesOyo" class="method navigator-link" hash-for-method="selectPlaceFromlist">selectPlaceFromlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Testpage_method.TestCasesOyo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="date2">
+                  </a> <!-- date2 -->
+                  <span class="method-name">date2</span>
+                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f205183fb9ebef21f3bd21758c98f39, actions {actions=[org.openqa.selenium.interactions.Sequence@6e31d989]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\bkumar\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51920}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51920/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f205183fb9ebef21f3bd21758c98f39
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:362)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:154)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:169)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:169)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:182)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:177)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:278)
+	at org.openqa.selenium.json.Json.toJson(Json.java:42)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:258)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:122)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
+	at Testpage_method.TestCasesOyo.date2(TestCasesOyo.java:253)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:303)
+		at org.openqa.selenium.json.Json.toJson(Json.java:40)
+		... 37 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:358)
+	... 58 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;DateRangePicker__Month&apos;][2]//span[text()=&apos;11&apos;][1]&quot;}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f205183fb9ebef21f3bd21758c98f39, findElement {using=xpath, value=//div[@class=&apos;DateRangePicker__Month&apos;][2]//span[text()=&apos;11&apos;][1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\bkumar\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51920}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51920/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f205183fb9ebef21f3bd21758c98f39
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:269)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:218)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:73)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
+	... 63 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testpage_method.TestCasesOyo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddRooms">
+                  </a> <!-- AddRooms -->
+                  <span class="method-name">AddRooms</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Bmember_visibility">
+                  </a> <!-- Bmember_visibility -->
+                  <span class="method-name">Bmember_visibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CallUs_Visibility">
+                  </a> <!-- CallUs_Visibility -->
+                  <span class="method-name">CallUs_Visibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CitiesInKolkata">
+                  </a> <!-- CitiesInKolkata -->
+                  <span class="method-name">CitiesInKolkata</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CitiesInMumbai">
+                  </a> <!-- CitiesInMumbai -->
+                  <span class="method-name">CitiesInMumbai</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CitiesInpune">
+                  </a> <!-- CitiesInpune -->
+                  <span class="method-name">CitiesInpune</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CityInGurgaon">
+                  </a> <!-- CityInGurgaon -->
+                  <span class="method-name">CityInGurgaon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CityInHyderabad">
+                  </a> <!-- CityInHyderabad -->
+                  <span class="method-name">CityInHyderabad</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CityInbangalore">
+                  </a> <!-- CityInbangalore -->
+                  <span class="method-name">CityInbangalore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CityInchennai">
+                  </a> <!-- CityInchennai -->
+                  <span class="method-name">CityInchennai</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CityIndelhi">
+                  </a> <!-- CityIndelhi -->
+                  <span class="method-name">CityIndelhi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DelRooms">
+                  </a> <!-- DelRooms -->
+                  <span class="method-name">DelRooms</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logo_visibility">
+                  </a> <!-- Logo_visibility -->
+                  <span class="method-name">Logo_visibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectingRoom">
+                  </a> <!-- SelectingRoom -->
+                  <span class="method-name">SelectingRoom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bistupurG">
+                  </a> <!-- bistupurG -->
+                  <span class="method-name">bistupurG</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="citiesInNOIDA">
+                  </a> <!-- citiesInNOIDA -->
+                  <span class="method-name">citiesInNOIDA</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clckcalen">
+                  </a> <!-- clckcalen -->
+                  <span class="method-name">clckcalen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clicked">
+                  </a> <!-- clicked -->
+                  <span class="method-name">clicked</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="date">
+                  </a> <!-- date -->
+                  <span class="method-name">date</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="datePickCalendar">
+                  </a> <!-- datePickCalendar -->
+                  <span class="method-name">datePickCalendar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="decroom">
+                  </a> <!-- decroom -->
+                  <span class="method-name">decroom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incroom">
+                  </a> <!-- incroom -->
+                  <span class="method-name">incroom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listproperty_Visibility">
+                  </a> <!-- listproperty_Visibility -->
+                  <span class="method-name">listproperty_Visibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mapviewbox">
+                  </a> <!-- mapviewbox -->
+                  <span class="method-name">mapviewbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oyoBusiness_visibiltiy">
+                  </a> <!-- oyoBusiness_visibiltiy -->
+                  <span class="method-name">oyoBusiness_visibiltiy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sea">
+                  </a> <!-- sea -->
+                  <span class="method-name">sea</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchboxinside">
+                  </a> <!-- searchboxinside -->
+                  <span class="method-name">searchboxinside</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectPlaceFromlist">
+                  </a> <!-- selectPlaceFromlist -->
+                  <span class="method-name">selectPlaceFromlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\bkumar\AppData\Local\Temp\testng-eclipse--973759179\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testpage_method.TestCasesOyo&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'citiesInNOIDA')
+data.setCell(0, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(0, 3, 24668);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'date2')
+data.setCell(1, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(1, 3, 12039);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CitiesInKolkata')
+data.setCell(2, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(2, 3, 4555);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CitiesInMumbai')
+data.setCell(3, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(3, 3, 4533);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'CityIndelhi')
+data.setCell(4, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(4, 3, 4529);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CityInHyderabad')
+data.setCell(5, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(5, 3, 4529);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'CityInchennai')
+data.setCell(6, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(6, 3, 4528);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'CitiesInpune')
+data.setCell(7, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(7, 3, 4523);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'CityInGurgaon')
+data.setCell(8, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(8, 3, 4487);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'CityInbangalore')
+data.setCell(9, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(9, 3, 4484);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'clicked')
+data.setCell(10, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(10, 3, 2912);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'search')
+data.setCell(11, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(11, 3, 2562);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'date')
+data.setCell(12, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(12, 3, 2425);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'SelectingRoom')
+data.setCell(13, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(13, 3, 2388);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'selectPlaceFromlist')
+data.setCell(14, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(14, 3, 2343);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'clckcalen')
+data.setCell(15, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(15, 3, 2318);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'datePickCalendar')
+data.setCell(16, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(16, 3, 2203);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'mapviewbox')
+data.setCell(17, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(17, 3, 1579);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'searchboxinside')
+data.setCell(18, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(18, 3, 1374);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'bistupurG')
+data.setCell(19, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(19, 3, 1360);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'incroom')
+data.setCell(20, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(20, 3, 260);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'sea')
+data.setCell(21, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(21, 3, 243);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'AddRooms')
+data.setCell(22, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(22, 3, 242);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'DelRooms')
+data.setCell(23, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(23, 3, 217);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'decroom')
+data.setCell(24, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(24, 3, 210);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'listproperty_Visibility')
+data.setCell(25, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(25, 3, 70);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Bmember_visibility')
+data.setCell(26, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(26, 3, 65);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'CallUs_Visibility')
+data.setCell(27, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(27, 3, 50);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'oyoBusiness_visibiltiy')
+data.setCell(28, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(28, 3, 48);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Logo_visibility')
+data.setCell(29, 2, 'Testpage_method.TestCasesOyo')
+data.setCell(29, 3, 43);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testpage_method.TestCasesOyo</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">Bmember_visibility</span>
+                <span class="method-start">6926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CallUs_Visibility</span>
+                <span class="method-start">6999 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Logo_visibility</span>
+                <span class="method-start">7051 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clicked</span>
+                <span class="method-start">7096 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">listproperty_Visibility</span>
+                <span class="method-start">10010 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">oyoBusiness_visibiltiy</span>
+                <span class="method-start">10084 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CitiesInKolkata</span>
+                <span class="method-start">10134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CitiesInMumbai</span>
+                <span class="method-start">14691 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CitiesInpune</span>
+                <span class="method-start">19226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CityInGurgaon</span>
+                <span class="method-start">23752 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CityInHyderabad</span>
+                <span class="method-start">28242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CityInbangalore</span>
+                <span class="method-start">32774 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CityInchennai</span>
+                <span class="method-start">37260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CityIndelhi</span>
+                <span class="method-start">41790 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">citiesInNOIDA</span>
+                <span class="method-start">46321 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">search</span>
+                <span class="method-start">70991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectPlaceFromlist</span>
+                <span class="method-start">73559 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clckcalen</span>
+                <span class="method-start">75905 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">datePickCalendar</span>
+                <span class="method-start">78226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">date</span>
+                <span class="method-start">80432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">date2</span>
+                <span class="method-start">82860 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectingRoom</span>
+                <span class="method-start">94903 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">incroom</span>
+                <span class="method-start">97294 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">decroom</span>
+                <span class="method-start">97557 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddRooms</span>
+                <span class="method-start">97770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DelRooms</span>
+                <span class="method-start">98015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sea</span>
+                <span class="method-start">98235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mapviewbox</span>
+                <span class="method-start">98480 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchboxinside</span>
+                <span class="method-start">100060 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bistupurG</span>
+                <span class="method-start">101436 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

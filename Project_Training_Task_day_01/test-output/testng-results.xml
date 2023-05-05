@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="29" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-05T10:59:07 IST" name="Default suite" finished-at="2023-05-05T11:00:43 IST" duration-ms="95926">
+    <groups>
+    </groups>
+    <test started-at="2023-05-05T10:59:07 IST" name="Default test" finished-at="2023-05-05T11:00:43 IST" duration-ms="95926">
+      <class name="Testpage_method.TestCasesOyo">
+        <test-method is-config="true" signature="launch()[pri:0, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T10:59:00 IST" name="launch" finished-at="2023-05-05T10:59:07 IST" duration-ms="6870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Bmember_visibility()[pri:0, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T10:59:07 IST" name="Bmember_visibility" finished-at="2023-05-05T10:59:07 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bmember_visibility -->
+        <test-method signature="CallUs_Visibility()[pri:0, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T10:59:07 IST" name="CallUs_Visibility" finished-at="2023-05-05T10:59:07 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CallUs_Visibility -->
+        <test-method signature="Logo_visibility()[pri:0, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T10:59:07 IST" name="Logo_visibility" finished-at="2023-05-05T10:59:07 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo_visibility -->
+        <test-method signature="clicked()[pri:0, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T10:59:07 IST" name="clicked" finished-at="2023-05-05T10:59:10 IST" duration-ms="2912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicked -->
+        <test-method signature="listproperty_Visibility()[pri:0, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T10:59:10 IST" name="listproperty_Visibility" finished-at="2023-05-05T10:59:10 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listproperty_Visibility -->
+        <test-method signature="oyoBusiness_visibiltiy()[pri:0, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T10:59:10 IST" name="oyoBusiness_visibiltiy" finished-at="2023-05-05T10:59:10 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oyoBusiness_visibiltiy -->
+        <test-method signature="CitiesInKolkata()[pri:1, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T10:59:10 IST" name="CitiesInKolkata" finished-at="2023-05-05T10:59:15 IST" duration-ms="4555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CitiesInKolkata -->
+        <test-method signature="CitiesInMumbai()[pri:1, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T10:59:15 IST" name="CitiesInMumbai" finished-at="2023-05-05T10:59:19 IST" duration-ms="4533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CitiesInMumbai -->
+        <test-method signature="CitiesInpune()[pri:1, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T10:59:19 IST" name="CitiesInpune" finished-at="2023-05-05T10:59:24 IST" duration-ms="4523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CitiesInpune -->
+        <test-method signature="CityInGurgaon()[pri:1, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T10:59:24 IST" name="CityInGurgaon" finished-at="2023-05-05T10:59:28 IST" duration-ms="4487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CityInGurgaon -->
+        <test-method signature="CityInHyderabad()[pri:1, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T10:59:28 IST" name="CityInHyderabad" finished-at="2023-05-05T10:59:33 IST" duration-ms="4529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CityInHyderabad -->
+        <test-method signature="CityInbangalore()[pri:1, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T10:59:33 IST" name="CityInbangalore" finished-at="2023-05-05T10:59:37 IST" duration-ms="4484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CityInbangalore -->
+        <test-method signature="CityInchennai()[pri:1, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T10:59:37 IST" name="CityInchennai" finished-at="2023-05-05T10:59:42 IST" duration-ms="4528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CityInchennai -->
+        <test-method signature="CityIndelhi()[pri:1, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T10:59:42 IST" name="CityIndelhi" finished-at="2023-05-05T10:59:46 IST" duration-ms="4529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CityIndelhi -->
+        <test-method signature="citiesInNOIDA()[pri:1, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T10:59:46 IST" name="citiesInNOIDA" finished-at="2023-05-05T11:00:11 IST" duration-ms="24668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- citiesInNOIDA -->
+        <test-method signature="search()[pri:2, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T11:00:11 IST" name="search" finished-at="2023-05-05T11:00:14 IST" duration-ms="2562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="selectPlaceFromlist()[pri:2, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T11:00:14 IST" name="selectPlaceFromlist" finished-at="2023-05-05T11:00:16 IST" depends-on-methods="Testpage_method.TestCasesOyo.search" duration-ms="2343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPlaceFromlist -->
+        <test-method signature="clckcalen()[pri:2, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T11:00:16 IST" name="clckcalen" finished-at="2023-05-05T11:00:18 IST" depends-on-methods="Testpage_method.TestCasesOyo.selectPlaceFromlist" duration-ms="2318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clckcalen -->
+        <test-method signature="datePickCalendar()[pri:2, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T11:00:18 IST" name="datePickCalendar" finished-at="2023-05-05T11:00:20 IST" depends-on-methods="Testpage_method.TestCasesOyo.clckcalen" duration-ms="2203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datePickCalendar -->
+        <test-method signature="date()[pri:2, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T11:00:20 IST" name="date" finished-at="2023-05-05T11:00:23 IST" depends-on-methods="Testpage_method.TestCasesOyo.datePickCalendar" duration-ms="2425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date -->
+        <test-method signature="date2()[pri:2, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T11:00:23 IST" name="date2" finished-at="2023-05-05T11:00:35 IST" depends-on-methods="Testpage_method.TestCasesOyo.date" duration-ms="12039" status="FAIL">
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f205183fb9ebef21f3bd21758c98f39, actions {actions=[org.openqa.selenium.interactions.Sequence@6e31d989]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\bkumar\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51920}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51920/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f205183fb9ebef21f3bd21758c98f39]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f205183fb9ebef21f3bd21758c98f39, actions {actions=[org.openqa.selenium.interactions.Sequence@6e31d989]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\bkumar\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51920}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51920/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f205183fb9ebef21f3bd21758c98f39
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:362)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:154)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:169)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:169)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:182)
+at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)
+at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:177)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:278)
+at org.openqa.selenium.json.Json.toJson(Json.java:42)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:258)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:122)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
+at Testpage_method.TestCasesOyo.date2(TestCasesOyo.java:253)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:303)
+at org.openqa.selenium.json.Json.toJson(Json.java:40)
+... 37 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:358)
+... 58 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='DateRangePicker__Month'][2]//span[text()='11'][1]"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f205183fb9ebef21f3bd21758c98f39, findElement {using=xpath, value=//div[@class='DateRangePicker__Month'][2]//span[text()='11'][1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\bkumar\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51920}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51920/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f205183fb9ebef21f3bd21758c98f39
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy15.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:269)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:218)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:73)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
+... 63 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date2 -->
+        <test-method signature="SelectingRoom()[pri:3, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T11:00:35 IST" name="SelectingRoom" finished-at="2023-05-05T11:00:37 IST" duration-ms="2388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectingRoom -->
+        <test-method signature="incroom()[pri:3, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T11:00:37 IST" name="incroom" finished-at="2023-05-05T11:00:38 IST" depends-on-methods="Testpage_method.TestCasesOyo.SelectingRoom" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incroom -->
+        <test-method signature="decroom()[pri:3, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T11:00:38 IST" name="decroom" finished-at="2023-05-05T11:00:38 IST" depends-on-methods="Testpage_method.TestCasesOyo.incroom" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- decroom -->
+        <test-method signature="AddRooms()[pri:3, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T11:00:38 IST" name="AddRooms" finished-at="2023-05-05T11:00:38 IST" depends-on-methods="Testpage_method.TestCasesOyo.decroom" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddRooms -->
+        <test-method signature="DelRooms()[pri:3, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T11:00:38 IST" name="DelRooms" finished-at="2023-05-05T11:00:38 IST" depends-on-methods="Testpage_method.TestCasesOyo.AddRooms" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DelRooms -->
+        <test-method signature="sea()[pri:3, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T11:00:38 IST" name="sea" finished-at="2023-05-05T11:00:39 IST" depends-on-methods="Testpage_method.TestCasesOyo.DelRooms" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sea -->
+        <test-method signature="mapviewbox()[pri:4, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T11:00:39 IST" name="mapviewbox" finished-at="2023-05-05T11:00:40 IST" depends-on-methods="Testpage_method.TestCasesOyo.sea" duration-ms="1579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mapviewbox -->
+        <test-method signature="searchboxinside()[pri:4, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T11:00:40 IST" name="searchboxinside" finished-at="2023-05-05T11:00:41 IST" depends-on-methods="Testpage_method.TestCasesOyo.mapviewbox" duration-ms="1374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchboxinside -->
+        <test-method signature="bistupurG()[pri:4, instance:Testpage_method.TestCasesOyo@1cf6d1be]" started-at="2023-05-05T11:00:41 IST" name="bistupurG" finished-at="2023-05-05T11:00:43 IST" depends-on-methods="Testpage_method.TestCasesOyo.searchboxinside" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bistupurG -->
+      </class> <!-- Testpage_method.TestCasesOyo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
